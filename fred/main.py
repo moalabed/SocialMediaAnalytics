@@ -15,7 +15,7 @@ def send_get_request(url):
         print(f"{response.status_code} and text is {response.text}")
 
 if __name__ == "__main__":
-    endpoint = 'fred/series'
+    endpoint = 'fred/series/observations'
     series_id = 'DEXUSEU'
     realtime_start = '2000-01-01'
     realtime_end = '2024-09-22'
